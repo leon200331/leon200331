@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👨‍💻 Leonel | Developer
+# 👨‍💻 Leonardo | Software Developer
 
 ¡Hola! Bienvenid@ a mi espacio en GitHub.
 
