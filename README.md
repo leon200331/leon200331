@@ -39,18 +39,17 @@ Estilo dark, centrado y con badges minimalistas adaptado.
   <img src="https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Linux-000?logo=linux&logoColor=white&style=for-the-badge"/>
 </p>
 
 ---
 
 ### 📊 Stats
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=leon200331&show_icons=true&theme=tokyonight&hide_title=false&hide_border=true" alt="stats"/>
-  <img height="160" src="https://streak-stats.demolab.com?user=leon200331&theme=tokyonight&hide_border=true" alt="streak"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=leon200331&show_icons=true&theme=tokyonight&hide_border=true" alt="stats"/>
+  <img height="165" src="https://streak-stats.demolab.com?user=leon200331&theme=tokyonight&hide_border=true" alt="streak"/>
 </p>
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leon200331&layout=compact&theme=tokyonight&hide_border=true" alt="langs"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leon200331&layout=compact&theme=tokyonight&hide_border=true" alt="langs"/>
 </p>
 
 ### 🏆 Trophies
