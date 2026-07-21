@@ -1,6 +1,6 @@
 <!--
 README de perfil de leon200331
-Estilo dark, centrado y con badges minimalistas adaptado.
+Estilo dark, centrado y estable.
 -->
 
 <h1 align="center">Hola, soy leon200331 👋</h1>
@@ -8,7 +8,7 @@ Estilo dark, centrado y con badges minimalistas adaptado.
   <b>Ingeniería en Sistemas Computacionales • Desarrollo Web & Software</b>
 </p>
 
-<!-- Texto animado (typing effect) -->
+<!-- Texto animado -->
 <p align="center">
   <img
     src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&duration=2200&pause=900&color=FFFFFF&center=true&vCenter=true&width=700&lines=Desarrollador+Web;Python+%26+Django;Apasionado+por+el+Software;Frontend+%26+Backend"
@@ -45,31 +45,17 @@ Estilo dark, centrado y con badges minimalistas adaptado.
 
 ### 📊 Stats
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=leon200331&show_icons=true&theme=tokyonight&hide_border=true" alt="stats"/>
   <img height="165" src="https://streak-stats.demolab.com?user=leon200331&theme=tokyonight&hide_border=true" alt="streak"/>
-</p>
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leon200331&layout=compact&theme=tokyonight&hide_border=true" alt="langs"/>
-</p>
-
-### 🏆 Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=leon200331&theme=onestar&no-frame=true&row=1&column=6" alt="trophies"/>
 </p>
 
 ---
 
 ### 🚀 Proyectos destacados
-<p align="center">
-  <a href="https://github.com/leon200331/taller_django">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=leon200331&repo=taller_django&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/leon200331/libreria-django">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=leon200331&repo=libreria-django&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
+
+- 🐍 **[taller_django](https://github.com/leon200331/taller_django)** — Proyecto de práctica y desarrollo web con el framework Django.
+- 📚 **[libreria-django](https://github.com/leon200331/libreria-django)** — Proyecto de gestión de librería con modelos de Autor y Libro.
 
 ---
 
 ### 🌐 Enlaces
-- 📦 **Repositorios:** https://github.com/leon200331?tab=repositories
+- 📦 **Repositorios completos:** https://github.com/leon200331?tab=repositories
