@@ -1,61 +1,61 @@
-<!--
-README de perfil de leon200331
-Estilo dark, centrado y estable.
--->
+<div align="center">
 
-<h1 align="center">Hola, soy leon200331 👋</h1>
-<p align="center">
-  <b>Ingeniería en Sistemas Computacionales • Desarrollo Web & Software</b>
-</p>
+# 👨‍💻 Leonel | Developer
 
-<!-- Texto animado -->
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&duration=2200&pause=900&color=FFFFFF&center=true&vCenter=true&width=700&lines=Desarrollador+Web;Python+%26+Django;Apasionado+por+el+Software;Frontend+%26+Backend"
-    alt="roles animados"
-  />
-</p>
+¡Hola! Bienvenid@ a mi espacio en GitHub.
 
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=leon200331&style=for-the-badge&color=0e75b6"><img src="https://komarev.com/ghpvc/?username=leon200331&style=for-the-badge&color=0e75b6" alt="views"/></a>
-  <a href="mailto:tuemail@ejemplo.com"><img src="https://img.shields.io/badge/Contacto-Email-25D366?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
-</p>
+[![Visitor Count](https://komarev.com/ghpvc/?username=leon200331&color=6f42c1&style=flat-square)](https://github.com/leon200331)
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=9D4EDD&center=true&vCenter=true&width=500&lines=Backend+%26+Software+Development;Python+%7C+Django+Specialist;Building+Web+Applications" alt="Typing SVG" />
+
+</div>
 
 ---
 
-### ⚡ Sobre mí
-- 💻 Estudiante de Ingeniería en Sistemas Computacionales.
-- 🧰 Desarrollo & Stack: Python, Django, JavaScript, HTML5, CSS3, SQL.
-- 🚀 Me apasiona construir aplicaciones web dinámicas y soluciones funcionales.
-- 🎯 Objetivo: Aprender constantemente, crear código limpio y colaborar en grandes proyectos.
+## 📌 Perfil Profesional
 
-### 🧩 Tecnologías & Herramientas
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge"/>
-</p>
+- 🎓 Estudiante de **Ingeniería en Sistemas Computacionales**.
+- 🛠️ Enfocado en el **desarrollo backend** y la arquitectura de aplicaciones web.
+- 💡 Interesado en la creación de código estructurado, limpio y escalable.
 
 ---
 
-### 📊 Stats
-<p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=leon200331&theme=tokyonight&hide_border=true" alt="streak"/>
-</p>
+## 🛠️ Stack Tecnológico
+
+#### **Lenguajes & Frameworks**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+#### **Frontend & Bases de Datos**
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=postgresql&logoColor=white)
+
+#### **Herramientas de Control**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 ---
 
-### 🚀 Proyectos destacados
+## 📈 Actividad en GitHub
 
-- 🐍 **[taller_django](https://github.com/leon200331/taller_django)** — Proyecto de práctica y desarrollo web con el framework Django.
-- 📚 **[libreria-django](https://github.com/leon200331/libreria-django)** — Proyecto de gestión de librería con modelos de Autor y Libro.
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=leon200331&theme=dracula&hide_border=true&border_radius=8" alt="GitHub Streak" />
+</div>
 
 ---
 
-### 🌐 Enlaces
-- 📦 **Repositorios completos:** https://github.com/leon200331?tab=repositories
+## 📂 Proyectos Principales
+
+> ### 🐍 [taller_django](https://github.com/leon200331/taller_django)
+> Módulo de desarrollo dinámico orientado a prácticas con el framework Django.
+
+> ### 📚 [libreria-django](https://github.com/leon200331/libreria-django)
+> Sistema web de gestión bibliográfica implementando relaciones de modelos (Autor - Libro).
+
+---
+
+<div align="center">
+  <sub>Diseñado y administrado por <a href="https://github.com/leon200331">leon200331</a></sub>
+</div>
