@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%">
+  <defs>
+    <!-- Background & Accents -->
+    <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+
+    <linearGradient id="accent-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB;#06B6D4;#10B981;#2563EB" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#10B981;#2563EB;#06B6D4" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#2563EB;#06B6D4;#10B981" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow-light" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="soft-shadow-light">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+
+    <style>
+      .text-primary-light { fill: #0F172A; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .text-muted-light { fill: #475569; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .code-font { font-family: "Fira Code", Monaco, Consolas, monospace; }
+      .pill-light { fill: #FFFFFF; stroke: rgba(15,23,42,0.12); stroke-width: 1; rx: 14; }
+      .pill-text-light { fill: #0F172A; font-size: 13px; font-weight: 500; font-family: -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1180" height="610" rx="16" fill="url(#bg-grad-light)"/>
+
+  <!-- Ambient Glowing Orbs -->
+  <circle cx="200" cy="150" r="180" fill="#2563EB" opacity="0.08" filter="url(#glow-light)">
+    <animate attributeName="cy" values="150;200;150" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="950" cy="450" r="200" fill="#06B6D4" opacity="0.08" filter="url(#glow-light)">
+    <animate attributeName="cx" values="950;900;950" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Border Shimmer -->
+  <rect x="1" y="1" width="1178" height="608" rx="15" fill="none" stroke="rgba(15,23,42,0.08)" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1178" height="608" rx="15" fill="none" stroke="url(#accent-grad-light)" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- LEFT PANEL: ASCII Portrait Container -->
+  <g transform="translate(30, 30)">
+    <rect width="410" height="550" rx="12" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)" stroke-width="1" filter="url(#soft-shadow-light)"/>
+    
+    <!-- Floating ASCII Portrait Group -->
+    <g class="code-font" font-size="10" font-weight="bold">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="6s" repeatCount="indefinite"/>
+      
+      <text x="35" y="70" fill="url(#accent-grad-light)" opacity="0.95">
+        <tspan x="35" dy="1.2em">      .─────────────────────────.      </tspan>
+        <tspan x="35" dy="1.2em">     /   _____ _____ _____ ___   \     </tspan>
+        <tspan x="35" dy="1.2em">    |   /  ___/  ___/  ___/   |   |    </tspan>
+        <tspan x="35" dy="1.2em">    |  |  |  |  |  |  |  |  | |   |    </tspan>
+        <tspan x="35" dy="1.2em">    |  |  |__|  |__|  |__|  |_|   |    </tspan>
+        <tspan x="35" dy="1.2em">    |   \____/\____/\____/\___/   |    </tspan>
+        <tspan x="35" dy="1.2em">     \                           /     </tspan>
+        <tspan x="35" dy="1.2em">      '─────────────────────────'      </tspan>
+        <tspan x="35" dy="1.4em">     ____  ______  _      _____ _____ </tspan>
+        <tspan x="35" dy="1.2em">    / ___|/ _  _ \| |    /  ___/  ___|</tspan>
+        <tspan x="35" dy="1.2em">   | |   | | || | | |    |  |_ |  |_  </tspan>
+        <tspan x="35" dy="1.2em">   | |___| |_|| | | |___ |   _||   _| </tspan>
+        <tspan x="35" dy="1.2em">    \____|\____/|_|_____||__|  |__|   </tspan>
+        <tspan x="35" dy="1.4em">   ┌───────────────────────────────┐  </tspan>
+        <tspan x="35" dy="1.2em">   │  [SYSTEM]: DEV_ENGINE_ONLINE  │  </tspan>
+        <tspan x="35" dy="1.2em">   │  [STATUS]: READY TO BUILD     │  </tspan>
+        <tspan x="35" dy="1.2em">   └───────────────────────────────┘  </tspan>
+      </text>
+    </g>
+
+    <!-- Scanline Sweep Animation -->
+    <line x1="10" y1="0" x2="400" y2="0" stroke="#06B6D4" stroke-width="1.5" opacity="0.3" filter="url(#glow-light)">
+      <animateTransform attributeName="transform" type="translate" values="0,30; 0,520; 0,30" dur="5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- RIGHT PANEL: Terminal & Info Window -->
+  <g transform="translate(465, 30)">
+    <rect width="685" height="550" rx="12" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)" stroke-width="1" filter="url(#soft-shadow-light)"/>
+    
+    <!-- Window Controls -->
+    <circle cx="25" cy="25" r="6" fill="#EF4444"/>
+    <circle cx="45" cy="25" r="6" fill="#F59E0B"/>
+    <circle cx="65" cy="25" r="6" fill="#10B981"/>
+    <text x="342" y="30" text-anchor="middle" class="text-muted-light code-font" font-size="12">developer-profile.sh</text>
+    <line x1="0" y1="45" x2="685" y2="45" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
+
+    <!-- Greeting & Name -->
+    <g transform="translate(35, 80)">
+      <text class="text-muted-light code-font" font-size="16">~$ whoami</text>
+      <text y="40" class="text-primary-light" font-size="34" font-weight="bold">Leonardo González</text>
+      <text y="70" class="code-font" font-size="20" fill="#2563EB">
+        &gt; <tspan fill="#0F172A">Full Stack Developer &amp; Systems Engineer</tspan>
+        <tspan fill="#06B6D4">_
+          <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+        </tspan>
+      </text>
+    </g>
+
+    <!-- Details Section -->
+    <g transform="translate(35, 210)" class="text-primary-light" font-size="14">
+      <g transform="translate(0, 0)">
+        <text class="text-muted-light code-font">📍 Location:</text>
+        <text x="120" class="text-primary-light">Chiapas, Mexico</text>
+      </g>
+      <g transform="translate(0, 30)">
+        <text class="text-muted-light code-font">🎓 Education:</text>
+        <text x="120" class="text-primary-light">Computer Systems Engineering (ITTG)</text>
+      </g>
+      <g transform="translate(0, 60)">
+        <text class="text-muted-light code-font">🚀 Focusing on:</text>
+        <text x="120" fill="#059669" font-weight="500">Backend Systems, Web Apps &amp; Python Projects</text>
+      </g>
+    </g>
+
+    <!-- Skills Section -->
+    <g transform="translate(35, 330)">
+      <text class="text-muted-light code-font" font-size="14">🛠️ Tech Stack &amp; Tools:</text>
+      
+      <g transform="translate(0, 25)">
+        <g transform="translate(0,0)"><rect class="pill-light" width="80" height="30"/><text x="40" y="20" text-anchor="middle" class="pill-text-light">Python</text></g>
+        <g transform="translate(90,0)"><rect class="pill-light" width="80" height="30"/><text x="40" y="20" text-anchor="middle" class="pill-text-light">Django</text></g>
+        <g transform="translate(180,0)"><rect class="pill-light" width="70" height="30"/><text x="35" y="20" text-anchor="middle" class="pill-text-light">PHP</text></g>
+        <g transform="translate(260,0)"><rect class="pill-light" width="85" height="30"/><text x="42" y="20" text-anchor="middle" class="pill-text-light">MySQL</text></g>
+        <g transform="translate(355,0)"><rect class="pill-light" width="105" height="30"/><text x="52" y="20" text-anchor="middle" class="pill-text-light">PostgreSQL</text></g>
+        
+        <g transform="translate(0,42)"><rect class="pill-light" width="90" height="30"/><text x="45" y="20" text-anchor="middle" class="pill-text-light">JavaScript</text></g>
+        <g transform="translate(100,42)"><rect class="pill-light" width="70" height="30"/><text x="35" y="20" text-anchor="middle" class="pill-text-light">HTML</text></g>
+        <g transform="translate(180,42)"><rect class="pill-light" width="70" height="30"/><text x="35" y="20" text-anchor="middle" class="pill-text-light">CSS</text></g>
+        <g transform="translate(260,42)"><rect class="pill-light" width="70" height="30"/><text x="35" y="20" text-anchor="middle" class="pill-text-light">Git</text></g>
+        <g transform="translate(340,42)"><rect class="pill-light" width="80" height="30"/><text x="40" y="20" text-anchor="middle" class="pill-text-light">GitHub</text></g>
+      </g>
+    </g>
+
+    <!-- Social Links / Footer -->
+    <g transform="translate(35, 485)">
+      <line x1="0" y1="0" x2="615" y2="0" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
+      
+      <g transform="translate(0, 22)">
+        <text class="code-font" font-size="13" fill="#2563EB">🌐 Connect with me:</text>
+        <text x="160" class="text-muted-light code-font" font-size="13">GitHub • LinkedIn • Portfolio</text>
+      </g>
+    </g>
+  </g>
+</svg>
