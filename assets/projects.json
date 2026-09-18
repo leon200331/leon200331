@@ -1,0 +1,21 @@
+{
+  "_comment": "Featured repos, in README order. Stars/forks/language come live from the API on every run; the description here overrides the repo's GitHub description.",
+  "projects": [
+    {
+      "repo": "Django-Administracion-Biblioteca",
+      "description": "Sistema de gestión y administración de biblioteca desarrollado en Django y Python para control de préstamos y usuarios."
+    },
+    {
+      "repo": "gestion-proyectos-django",
+      "description": "Plataforma web para administración, seguimiento de tareas y control de flujos de proyectos construida con Django."
+    },
+    {
+      "repo": "miproyecto",
+      "description": "Aplicación web de comercio electrónico y catálogo en línea para gestión de inventario y venta de ropa."
+    },
+    {
+      "repo": "ProyectoPapeleria",
+      "description": "Aplicación móvil nativa en Android Studio (Kotlin) orientada a la venta y administración de catálogo de papelería."
+    }
+  ]
+}

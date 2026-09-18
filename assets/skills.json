@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated, 0-100. Edit these and the Charts workflow redraws the radar.",
+  "axes": [
+    { "label": "Python / Django",        "value": 90 },
+    { "label": "PHP / Laravel",          "value": 85 },
+    { "label": "MySQL / PostgreSQL",     "value": 88 },
+    { "label": "REST APIs & Backend",    "value": 85 },
+    { "label": "JavaScript / TS",        "value": 78 },
+    { "label": "SQL & Data Analysis",    "value": 82 },
+    { "label": "Git / GitHub / CI/CD",   "value": 80 }
+  ]
+}
